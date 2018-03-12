@@ -1,7 +1,0 @@
-1.learnt more about div's and class's and how powerful they are, learnt a lot more abot css3 and html5 features.
-
-2.setting up the folders for the images and css
-
-3.making the website more responsive, what happens most of the time some of the content is resposive on mobile and some are not, so i had to restart at lot of times trying to make sure everything fits perfectly 
-
-4.used a lot of online resources such as youtube udacity videos, looking a websites that are responsive and using the development kit on chrome and understanding the code.
