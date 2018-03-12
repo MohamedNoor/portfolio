@@ -1,0 +1,168 @@
+body {
+  font-family: arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+
+.left-image {
+  width: 200px;
+  height: 200px;
+}
+
+.right-image {
+  width: 200px;
+  height: 200px;
+}
+
+.center-image {
+  width: 200px;
+  height: 200px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container-responsive {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  padding-top: 50px;
+}
+
+.container-projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+	justify-content: space-around;
+  align-items: baseline;
+	align-content: center;
+}
+
+.container-name {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+
+header {
+  border-bottom: #e8491d 3px solid;
+  width: 90%;
+  margin: auto;
+}
+
+.name {
+  font-family: "Open Sans", sans-serif;
+}
+
+.role {
+  font-family: "Bungee", cursive;
+}
+
+.greetings {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+.football {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 200px:
+}
+
+.main-image {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+	justify-content: space-around;
+  align-items: baseline;
+	align-content: center;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.poster-image {
+  border: solid 1px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.my-projects {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.copyright {
+  text-align: center;
+}
+@media (min-width:900px, max-width:2300px) {
+
+  .left-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .right-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .center-image {
+    width: 100%;
+    height: auto;
+  }
+
+.logo {
+  width: 100%;
+  height:auto;
+}
+
+.poster-image {
+  width: 100%;
+  height: auto;
+}
+
+}
