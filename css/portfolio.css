@@ -6,10 +6,11 @@ body {
   margin: 0;
 }
 
-.container {
+.Feature-work {
   width: 80%;
   margin: auto;
   display: flex;
+  padding-bottom: 30px;
 }
 
 .left-image {
@@ -45,7 +46,7 @@ body {
   justify-content: space-around;
   align-items: center;
   align-content: center;
-  padding-top: 50px;
+  padding: 80px 0;
 }
 
 .container-projects {
@@ -55,6 +56,7 @@ body {
 	justify-content: space-around;
   align-items: baseline;
 	align-content: center;
+  padding-bottom: 20px;
 }
 
 .container-name {
@@ -84,6 +86,7 @@ header {
   text-align: center;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
+  font-size: 30px;
 }
 
 .football {
@@ -106,10 +109,13 @@ header {
 }
 
 .poster-image {
-  border: solid 1px;
-  border-radius: 10px;
   width: 100%;
+  min-width: 500px;
 }
+.About {
+    text-align: center;
+    padding: 100px;
+  }
 
 .my-projects {
   padding-top: 50px;
@@ -118,6 +124,15 @@ header {
   margin: auto;
   overflow: hidden;
   position: relative;
+}
+
+.font-change {
+  font-family: 'Pacifico', cursive;
+}
+
+.info {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 30px;
 }
 
 .uppercase {
@@ -138,6 +153,12 @@ header {
 .copyright {
   text-align: center;
 }
+
+.icon-selection {
+  text-align: center;
+  font-size: 30px;
+  }
+
 @media (min-width:900px, max-width:2300px) {
 
   .left-image {
